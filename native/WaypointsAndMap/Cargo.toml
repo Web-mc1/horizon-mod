@@ -1,0 +1,15 @@
+[package]
+name = "waypoints"
+version = "0.1.0"
+edition = "2024"
+description = "Horizon mod: waypoints, a minimap overlay and a world map in one mod"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+horizon-mod-sdk = { path = "/home/etienne/horizon-FryedCheesefork/crates/horizon-mod-sdk" }
+
+[profile.release]
+opt-level = "s"
+lto = true

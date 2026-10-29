@@ -1,0 +1,9 @@
+id = "waypoints"
+name = "Waypoints"
+version = "0.1.0"
+description = "Waypoints with a minimap (markers over the game's own map) and a full-screen world map, in one mod. B adds a waypoint, M opens the world map, N opens the manager, /wp has the rest."
+authors = []
+api = "0.1"
+side = "client"
+capabilities = ["game-read", "chat", "render", "input", "ui", "storage"]
+experimental = ["render", "input", "ui"]
